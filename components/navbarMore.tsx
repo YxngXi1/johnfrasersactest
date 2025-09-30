@@ -6,11 +6,11 @@ import Link from "next/link";
 const links = [
   { 
     name: "Photos", 
-    href: "https://drive.google.com/drive/folders/1WIpAVouRSgXtycP7XPadHCjcF38iH1uD?usp=drive_link" 
+    href: "https://drive.google.com/drive/folders/14Bg6JuPVyGwGI986iwQs9gJBBzn3kjah?usp=sharing" 
   },
   { 
     name: "Published Meeting Agendas", 
-    href: "https://drive.google.com/drive/folders/1TJUOGyLqhqOphUnxu-3ZihWcw8XS5Geg?usp=sharing" 
+    href: "https://drive.google.com/drive/folders/1jrqFCp3Wuc9oI02vVabSj1b5G2dZIER6?usp=sharing" 
   },
   { 
     name: "SAC Budget Transparency Plans 2025", 

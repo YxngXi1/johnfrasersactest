@@ -62,12 +62,12 @@ const Page = () => {
               <h1 className="mb-6 text-4xl font-bold text-white lg:text-6xl">
                 John Fraser Student Council
               </h1>
-              <p className="mb-8 text-xl text-white">
-                Run By Students, For Students. Made with passion and heart
+              <p className="mb-8 text-xl text-white text-balance">
+                Our applications for Grade Representatives are currently open! Make sure to submit them by <strong>September 23rd, 8:00 PM</strong>!
               </p>
               <div className="flex flex-col items-start lg:items-center sm:flex-row">
-                <Link href="/opportunities" className="mb-4 sm:mb-0 sm:mr-4">
-                  <button className="button-2">Get Involved</button>
+                <Link href="https://apply.johnfrasersac.com" className="mb-4 sm:mb-0 sm:mr-4">
+                  <button className="button-2">Apply Now!</button>
                 </Link>
                 <Link
                   href="/announcements"
@@ -124,12 +124,12 @@ const Page = () => {
             </p>
             <div className="flex flex-col justify-between sm:flex-row">
               <div className="mb-6 sm:mb-0">
-                <p className="font-bold">Co-president</p>
-                <p>Aleena Ali</p>
+                <p className="font-bold">Vice President</p>
+                <p>David Chen</p>
               </div>
               <div>
-                <p className="font-bold">Co-president</p>
-                <p>Cody Doan</p>
+                <p className="font-bold">President</p>
+                <p>Hamza Saleh</p>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ const Page = () => {
             </Link>
           </div>
           <div className="flex flex-col items-center justify-center space-y-10 sm:flex-row sm:space-x-10 sm:space-y-0">
-            {["Aleena Ali", "Cody Doan"].map((name, index) => (
+            {["Hamza Saleh", "David Chen"].map((name, index) => (
               <div
                 key={index}
                 className="relative h-80 w-64 overflow-hidden rounded-lg bg-gray-100 shadow-md"
@@ -209,7 +209,7 @@ const Page = () => {
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
                   <p className="font-bold text-white">{name}</p>
                   <p className="text-white">
-                    {index === 0 ? "Co-president" : "Co-president"}
+                    {index === 0 ? "President" : "Vice President"}
                   </p>
                 </div>
               </div>
